@@ -6,8 +6,7 @@ It was important to build, test, and deploy a Minimum Viable Product (MVP) and t
 
 The app is fairly straight-forward and it is evident from the main page what the user can do:
   
-
-  
+<img width="1289" alt="Screen Shot 2019-05-13 at 2 34 46 PM" src="https://user-images.githubusercontent.com/13972201/57647669-901c6b00-7591-11e9-8c38-a905d2cdcdd5.png">
   
 ## Deployment
 
