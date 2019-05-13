@@ -8,7 +8,6 @@ var connection;
 //   user: "root",
 //   password: "BeeDP_1975",
 //   database: "burger_db"
-});
 
 if (process.env.JAWSDB_URL){
   connection.mysql.createConnection(process.env.JAWSDB_URL);
