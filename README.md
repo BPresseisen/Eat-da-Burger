@@ -1,6 +1,6 @@
 # Eat-da-Burger
   
-This is an app in node express-handlebars to log different burgers for tracking of which ones have been eaten (devoured). In a person's quest for a completionist's record of potential and consumed burger journeys and delights, this app is a must-have.
+This is an app in node express-handlebars to log different burgers for the purpse of tracking which ones have been eaten (devoured) by the user. In a person's quest for a record of potential and consumed burger journeys, this app is a must-have.
   
 It was important to build, test, and deploy a Minimum Viable Product (MVP) and that is what is released in this first version.
 
