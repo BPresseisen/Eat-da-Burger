@@ -26,4 +26,4 @@ Find Your 1 is also deployed in Heroku and can be reached via this link:
   
 ## Authors
   
-* **Ben Presseisen** - *Initial work* - [Precise Insights](https://bpresseisen.github.io/Bootstrap-Portfolio/)
+**Ben Presseisen** - *Initial work* - [Precise Insights](https://bpresseisen.github.io/Bootstrap-Portfolio/)
