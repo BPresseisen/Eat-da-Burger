@@ -4,7 +4,9 @@ This is an app in node express-handlebars to log different burgers for the purps
   
 It was important to build, test, and deploy a Minimum Viable Product (MVP) and that is what is released in this first version.
 
-After a new user enters their responses in the survey, the data file, findYour1.js is evaluated to determine the perfect match from among the existing users in the application.
+The app is fairly straight-forward and it is evident from the main page what the user can do:
+  
+
   
   
 ## Deployment
