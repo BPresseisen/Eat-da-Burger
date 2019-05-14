@@ -1,17 +1,13 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
 
-// var burgerImages = require("../data/burgerImages");
+// var burgerImage = require("../data/burgerImage");
 
-var burgerImageID;
+// var burgerImageID;
 
 $(function() {
     $(".change-devoured").on("click", function(event) {
 
       console.log ("on the click-event in the burger.js file");
-
-      burgerImageID = ((Math.random())*33).toFixed(0)+1;
-
-      console.log("the burgerImage ID is: " + burgerImageID);
 
       var id = $(this).data("id");
       var newDevoured = $(this).data("newdevoured");
@@ -51,18 +47,17 @@ $(function() {
         }
       );
 
-    // CHANGE LEAD IMAGE
+      burgerImageID = ((Math.random())*33).toFixed(0)+1;
 
-    // burgerImageID = ((Math.random())*33)+1;
+      console.log("the burgerImage ID is: " + burgerImageID);
 
-    // console.log("the burgerImage ID is: " + burgerImageID);
+      // function displayImage() {
+        
+      //   $("#leadImage").attr("src", burgerImage[burgerImageID].photo);
 
-    // function displayImage() {
-    //   // $("#leadImage").html("<img src=" + images[count] + " width='400px'>");
-    //   $("#leadImage").html("<img src=" + burgerImage[burgerImageID].photo + " width='400px'>");
-    // }
+      // }
 
-    // displayImage();
+      // displayImage();
 
     });
   
@@ -96,17 +91,21 @@ $(function() {
         }
       );
 
-      // burgerImageID = ((Math.random())*33)+1;
-
-      // console.log("the burgerImage ID is: " + burgerImageID);
-
     });
   
     $(".delete-burger").on("click", function(event) {
 
-      burgerImageID = ((Math.random())*33)+1;
+      // burgerImageID = 999;
 
-      console.log("the burgerImage ID is: " + burgerImageID);
+      // console.log("the burgerImage ID is: " + burgerImageID);
+
+      // function displayImage() {
+        
+      //   $("#leadImage").attr("src", burgerImage[burgerImageID].photo);
+        
+      // }
+
+      // displayImage();
 
       var id = $(this).data("id");
   

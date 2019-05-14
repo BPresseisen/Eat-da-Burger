@@ -140,8 +140,10 @@ var burgerImagesArr = [
     {
     "id": 34,
     "photo": "/img/burger_recursion_burger.webp"
+    },
+    {"id": 999,
+    "photo": "public/img/delete_burger_sad.png"
     }
-
 ];
 
 // Note how we export the array. This makes it accessible to other files using require.
